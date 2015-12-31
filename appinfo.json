@@ -12,7 +12,7 @@
                 "file": "images/javaScriptClock_logo.png",
                 "menuIcon": true,
                 "name": "JAVASCRIPT_CLOCK_LOGO",
-                "type": "png-trans"
+                "type": "png"
             }
         ]
     },
