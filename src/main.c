@@ -39,7 +39,7 @@ static void main_window_load(Window *window) {
   text_layer_set_background_color(s_js_env, GColorClear);
   text_layer_set_text_color(s_js_env, GColorBlack);
   text_layer_set_text(s_js_env, "> String(new Date \n"
-    ").slice(16, 21);"
+    "   ).slice(16, 21);"
   );
   text_layer_set_font(s_js_env, fonts_get_system_font(FONT_KEY_GOTHIC_18_BOLD));
   text_layer_set_text_alignment(s_js_env, GTextAlignmentLeft);
