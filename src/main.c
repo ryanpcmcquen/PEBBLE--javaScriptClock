@@ -1,6 +1,3 @@
-#include <pebble.h>
-
-
 /* javaScriptClock v1.0 by ryanpcmcquen */
 //
 // Ryan P.C. McQuen | Everett, WA | ryan.q@linux.com
@@ -23,6 +20,7 @@
 // with this program (most likely, a file named COPYING).  If not, see
 // <https://www.gnu.org/licenses/>.
 
+#include <pebble.h>
 
 static Window *s_main_window;
 
