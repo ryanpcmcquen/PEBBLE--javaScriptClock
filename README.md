@@ -11,5 +11,5 @@ Ironically, this clock is written in C.
 ### TODO:
 
  - Make it type
- - Make it sexy(/y$/i$/er)
+ - Make it sexy(`/y$/i$/`er)
 
