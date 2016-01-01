@@ -2,10 +2,10 @@
 
 Ironically, this clock is written in C.
 
-![app store screenshot](https://usercontent.irccloud-cdn.com/file/Qo1XLVyk/screenshot-dev-portal.getpebble.com%202015-12-31%2016-02-18.png)
+![pebble screenshot](https://usercontent.irccloud-cdn.com/file/WbrO4Uez/screenshot-cloudpebble.net%202016-01-01%2010-02-21.png)
 
 
-[PBW](https://usercontent.irccloud-cdn.com/file/0dHOwE0E/JS_clock.pbw)
+[PBW v1.1](https://usercontent.irccloud-cdn.com/file/sAGFTEUP/JS_clock.pbw)
 
 
 ### TODO:
