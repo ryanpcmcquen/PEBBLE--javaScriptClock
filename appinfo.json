@@ -30,7 +30,7 @@
     "shortName": "JS clock",
     "uuid": "57a11f29-5dc5-4a05-ae12-955fe2388071",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }

@@ -1,4 +1,4 @@
-/* javaScriptClock v1.0 by ryanpcmcquen */
+/* javaScriptClock v1.1 by ryanpcmcquen */
 //
 // Ryan P.C. McQuen | Everett, WA | ryan.q@linux.com
 //
@@ -61,20 +61,24 @@ static void main_window_load(Window *window) {
 
   // create the TextLayer with specific bounds
   s_js_env = text_layer_create(
-    GRect(5, 35, bounds.size.w, bounds.size.h)
+    GRect(5, 30, bounds.size.w, bounds.size.h)
   );
   
   // set up the fake JS environment
   text_layer_set_background_color(s_js_env, GColorClear);
   text_layer_set_text_color(s_js_env, GColorBlack);
-  text_layer_set_text(s_js_env, "> String(new Date\n"
-    "   ).slice(16,21);");
+  text_layer_set_text(s_js_env,
+    "> jsClock.version;\n"
+    "< 1.1\n"
+    "> String(new Date\n"
+    "   ).slice(16,21);"
+  );
   text_layer_set_font(s_js_env, s_js_font);
   text_layer_set_text_alignment(s_js_env, GTextAlignmentLeft);
   
   // create the TextLayer with specific bounds
   s_time_layer = text_layer_create(
-    GRect(5, 90, bounds.size.w, bounds.size.h)
+    GRect(5, 100, bounds.size.w, bounds.size.h)
   );
   
   // add it as a child layer to the Window's root layer
