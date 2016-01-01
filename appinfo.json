@@ -9,6 +9,16 @@
     "resources": {
         "media": [
             {
+                "file": "fonts/UbuntuMono-B__14.ttf",
+                "name": "FONT_UBUNTU_MONO_BOLD_14",
+                "type": "font"
+            },
+            {
+                "file": "fonts/UbuntuMono-B__29.ttf",
+                "name": "FONT_UBUNTU_MONO_BOLD_29",
+                "type": "font"
+            },
+            {
                 "file": "images/javaScriptClock_logo.png",
                 "menuIcon": true,
                 "name": "JAVASCRIPT_CLOCK_LOGO",
