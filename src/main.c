@@ -1,6 +1,6 @@
 /* javaScriptClock v1.1 by ryanpcmcquen */
 //
-// Ryan P. C. McQuen | Everett, WA | ryanpcmcquen@member.fsf.org
+// Ryan P. C. McQuen | Everett, WA
 
 #include <pebble.h>
 
